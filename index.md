@@ -47,7 +47,7 @@ classes: wide
 
   <div class="project-item">
     <div class="project-title"><a href="/projects/flip-it-coin-dice-simulator/">Flip It!! — Simulation Tool (Coin & Dice)</a></div>
-    <div class="project-subtitle">OOP + state-machine workflow with validation-first input handling and PyTest coverage..</div>
+    <div class="project-subtitle">OOP + state-machine workflow with validation-first input handling and PyTest coverage.</div>
     <ul class="project-bullets">
       <li>Designed for extensibility: swap fair vs weighted objects without changing core logic.</li>
        <li>Structured control flow to keep interaction predictable and testable.</li>
