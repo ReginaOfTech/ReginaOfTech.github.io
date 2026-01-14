@@ -73,7 +73,7 @@ classes: wide
 
 <div class="cta-bar">
   <div class="cta-text">
-    If you’re hiring for reliable, production-first AI systems work, I’d welcome a conversation.
+    If you’re hiring for reliable, production-first AI systems work, I’d welcome a conversation via LinkedIn.
   </div>
   <div class="cta-actions">
     <a class="btn btn--inverse" href="/about/">About</a>

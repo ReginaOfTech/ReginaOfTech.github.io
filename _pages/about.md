@@ -10,3 +10,5 @@ My focus is building AI-enabled systems that are reliable and practical—softwa
 I approach security as an engineering property—built through validation, auditability, and disciplined system design.
 
 I also lead knowledge-sharing initiatives as the head of an internal AI Roundtable, helping teams approach AI with discipline and good judgment.
+
+For professional inquiries, I can be found on LinkedIn.
