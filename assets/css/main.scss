@@ -1,9 +1,206 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
+# Only the main Sass file needs front matter
 ---
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+:root {
+  --accent: #2d5b8a; /* calm blue */
+  --accent-soft: rgba(45, 91, 138, 0.06);
+  --accent-soft-2: rgba(45, 91, 138, 0.04);
+  --text: #111827;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --accent-line: rgba(45, 91, 138, 0.22);
+}
+
+.page__content {
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #1e3a5f;
+}
+
+
+.btn--primary {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.btn--inverse {
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text);
+}
+
+.hero-block {
+  padding: 1.25rem 0 0.75rem 0;
+  border-left: 3px solid var(--accent);
+  padding-left: 1rem;
+  background: linear-gradient(90deg, var(--accent-soft), transparent 70%);
+  border-radius: 12px;
+}
+
+.hero-kicker {
+  color: var(--muted);
+  font-weight: 600;
+  letter-spacing: .02em;
+  margin-bottom: .25rem;
+}
+
+.hero-title {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  line-height: 1.15;
+  margin-top: .25rem;
+  margin-bottom: 0.85rem; /*was 1rem*/
+}
+
+.hero-actions .btn {
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}
+
+.section-rule {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 1.75rem 0;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+}
+
+.card-title {
+  font-weight: 700;
+  margin-bottom: .35rem;
+}
+
+.card-body {
+  color: var(--muted);
+}
+
+.project-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.project-item {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.project-item:hover {
+  transform: translateY(-1px);
+  box-shadow: inset 0 3px 0 var(--accent-line), 0 6px 18px rgba(17, 24, 39, 0.06);
+}
+
+.project-title {
+  font-weight: 750;
+  font-size: 1.05rem;
+  margin-bottom: .2rem;
+}
+
+.project-subtitle {
+  color: var(--muted);
+  margin-bottom: .6rem;
+}
+
+.project-bullets {
+  margin: 0;
+}
+
+.project-bullets li {
+  margin-bottom: .25rem;
+}
+
+.cred-strip {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  background: #fbfbfc;
+  color: var(--muted);
+}
+
+.cred-label {
+  color: var(--text);
+  font-weight: 650;
+}
+
+.cta-bar {
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  display: grid;
+  gap: .75rem;
+}
+
+@media (min-width: 900px) {
+  .cta-bar {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+  }
+}
+
+.cta-text {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* Accent line for cards (reliable: doesn't fight theme borders) */
+.card,
+.project-item,
+.cta-bar,
+.cred-strip {
+  box-shadow: inset 0 3px 0 var(--accent-line);
+}
+
+.card,
+.project-item,
+.cta-bar {
+  border-color: rgba(229, 231, 235, 0.85);
+}
+
+.card p,
+.project-item p,
+.cred-strip p,
+.cta-bar p {
+  margin-bottom: 0.5rem;
+}
+
+.project-item {
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.project-item:hover {
+  transform: translateY(-1px);
+  box-shadow: inset 0 3px 0 var(--accent-line), 0 6px 18px rgba(17, 24, 39, 0.06);
+}
