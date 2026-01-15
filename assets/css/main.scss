@@ -204,3 +204,34 @@ a:hover {
   transform: translateY(-1px);
   box-shadow: inset 0 3px 0 var(--accent-line), 0 6px 18px rgba(17, 24, 39, 0.06);
 }
+
+/* Projects page extras */
+.project-links {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.btn--small {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.7rem;
+}
+
+.project-tags {
+  margin: 0.35rem 0 0.6rem 0;
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.tag-pill {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(45, 91, 138, 0.04);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
