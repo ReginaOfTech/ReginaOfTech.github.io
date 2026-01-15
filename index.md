@@ -7,7 +7,7 @@ classes: wide
 ---
 
 <div class="hero-block">
-  <div class="hero-kicker">Software Engineer</div>
+  <div class="hero-kicker">Machine Learning Software Engineer</div>
   <h1 class="hero-title">
     Building reliable, production-ready AI systems<br/>
     for high-stakes environments.
@@ -21,20 +21,20 @@ classes: wide
 
 <hr class="section-rule" />
 
-## What I do
+## What I Do
 
 <div class="grid-2">
   <div class="card">
-    <div class="card-title">Reliable AI systems</div>
+    <div class="card-title">Build Reliable AI-Enabled Systems</div>
     <div class="card-body">
-      I build AI-enabled software that prioritizes correctness, testability, and operational clarity.
+      I design and implement software that integrates AI into larger systems, prioritizing predictable behavior, evaluation discipline, and operational clarity.
     </div>
   </div>
 
   <div class="card">
-    <div class="card-title">Production-first engineering</div>
+    <div class="card-title">Engineer for Correctness and Trust</div>
     <div class="card-body">
-      I focus on maintainable pipelines, measurable outcomes, and pragmatic tradeoffs—without hype.
+      I focus on validation, testing, and disciplined workflows to ensure results are credible—especially in security-sensitive or high-stakes environments.
     </div>
   </div>
 </div>
@@ -97,7 +97,7 @@ classes: wide
 
 <div class="cta-bar">
   <div class="cta-text">
-    If you’re hiring for reliable, production-first AI systems work, I can be found on LinkedIn.
+    If you’d like to learn more or connect, you can find me on LinkedIn.
   </div>
   <div class="cta-actions">
     <a class="btn btn--inverse" href="/about/">About</a>
