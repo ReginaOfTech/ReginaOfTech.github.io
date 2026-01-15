@@ -85,8 +85,8 @@ classes: wide
 ## Skills Stack
 
 <div class="cred-strip">
-  <div><span class="cred-label">Focus:</span> Reliable AI-enabled systems • production quality • auditability</div>
-  <div><span class="cred-label">Security:</span> Secure design • validation • testability</div>
+  <div><span class="cred-label">Focus:</span> Reliable AI-Enabled Systems • Production Quality • Auditability</div>
+  <div><span class="cred-label">Security:</span> Secure Design • Validation • Testability</div>
     <div><span class="cred-label">Tools:</span> Python • C++ • Linux • CI/CD</div>
     <div><span class="cred-label">Credentials:</span> Security+ • AWS Cloud Practitioner</div>
     <div><span class="cred-label">Leadership:</span> Test Lead • AI Roundtable Lead (DCS Corporation)</div>
